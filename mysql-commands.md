@@ -142,6 +142,13 @@ mysql> SELECT * FROM pfamily WHERE id=1;
 
     FLUSH PRIVILEGES;
     
+ # Grant specify database permission for user
+ 
+ ```bash
+ grant all on user1data.* to 'user1'@'localhost';
+```
+
+    
 # how to create database in mysql    
     
   
